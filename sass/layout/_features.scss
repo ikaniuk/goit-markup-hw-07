@@ -1,0 +1,33 @@
+.features-section {
+  padding-bottom: 0;
+}
+
+.features {
+  display: flex;
+}
+
+.features .item {
+  width: 270px;
+}
+
+.features .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.feature-icon {
+  background-color: #f5f4fa;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.features .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.text {
+  line-height: 1.71;
+}
