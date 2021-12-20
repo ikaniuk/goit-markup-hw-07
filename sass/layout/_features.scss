@@ -6,8 +6,10 @@
   display: flex;
 }
 
-.features .item {
-  width: 270px;
+.features {
+  .item {
+    width: 270px;
+  }
 }
 
 .features .item:not(:last-child) {
@@ -20,12 +22,14 @@
   margin-bottom: 30px;
 }
 
-.features .title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+.features {
+  .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
 }
 
 .text {

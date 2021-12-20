@@ -5,12 +5,16 @@
   display: flex;
 }
 
-.works .item {
-  position: relative;
+.works {
+  .item {
+    position: relative;
+  }
 }
 
-.works .item:not(:last-child) {
-  margin-right: 30px;
+.works {
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .work-thumb {
