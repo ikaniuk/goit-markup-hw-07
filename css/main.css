@@ -291,14 +291,14 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.header-section {
+.header {
   /* position: fixed; */
+  /* z-index: 1; */
   top: 0px;
   width: 100%;
   background-color: var(--primary-bgc);
   border-bottom: solid 1px;
   border-color: var(--border-header-color);
-  /* z-index: 1; */
 }
 
 .flex-header,
