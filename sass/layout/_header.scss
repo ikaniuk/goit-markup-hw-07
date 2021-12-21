@@ -1,4 +1,4 @@
-.header {
+.page-header {
   /* position: fixed; */
   /* z-index: 1; */
   top: 0px;
@@ -8,8 +8,8 @@
   border-color: var(--border-header-color);
 }
 
-.flex-header,
-.main-nav {
+.page-header__flex,
+.page-header__nav {
   display: flex;
   align-items: center;
 }
@@ -25,7 +25,7 @@
   text-decoration: none;
 }
 
-.fp-logo {
+.logo__first-part {
   color: var(--accent-color);
 }
 
@@ -36,11 +36,11 @@
   margin-left: 93px;
 }
 
-.site-nav .item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav .link {
+.site-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -55,17 +55,17 @@
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.cureent {
+.site-nav__link--current {
   position: relative;
   color: var(--accent-color);
 }
 
-.site-nav .link.cureent::after {
+.site-nav__link--current::after {
   content: '';
   position: absolute;
   display: block;
@@ -79,16 +79,16 @@
 
 /* Contacts */
 
-.contacts {
+.header-contacts {
   display: flex;
   margin-left: auto;
 }
 
-.contacts .item:not(:last-child) {
+.header-contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts .link {
+.header-contacts__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,12 +102,12 @@
   text-decoration: none;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.header-contacts__link:hover,
+.header-contacts__link:focus {
   color: var(--accent-color);
 }
 
-.contacts-icon {
+.header-contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }
