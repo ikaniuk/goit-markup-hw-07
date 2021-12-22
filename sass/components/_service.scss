@@ -1,19 +1,18 @@
-.work-section {
-}
+/* Service */
 
-.works {
+.service-list {
   display: flex;
 }
 
-.works .item {
+.service-card {
   position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.works .item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.work-thumb {
+.service-card__thumb {
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -26,7 +25,7 @@
   background: rgba(47, 48, 58, 0.8);
 }
 
-.work-name {
+.service-card__name {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
