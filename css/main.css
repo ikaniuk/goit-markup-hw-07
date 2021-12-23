@@ -197,10 +197,7 @@ img {
 .hero {
   background-color: var(--secondary-bgc);
   text-align: center;
-}
-
-/* Overlay */
-.hero__overlay {
+  /* Overlay */
   max-width: 1600px;
   min-height: 600px;
   margin: 0 auto;
